@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+
+{% block title %}
+Страница про нас
+{% endblock %}
+
+{% block content%}
+    <h1>История</h1>
+    <form method="post">
+        <input type="text" placeholder="Введите название" class="form-control"><br>
+        <textarea type="text" placeholder="Введите описание" class="form-control"></textarea><br>
+        <button type="submit" class="btn btn-success">Добавить</button>
+    </form>
+{% endblock %}
+
+
